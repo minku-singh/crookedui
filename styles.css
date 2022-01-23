@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --font-primary: monospace;
+    --font-size: 1rem;
+    --color-primary: orange;
+    --color-primary-font: #fff;
+}
+
+body{
+    font-family: var(--font-primary);
+    font-size: var(--font-size);
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-primary);
+    padding: 1rem;
+    color: var(--color-primary-font);
+}
+.navbar__brand  a{
+    text-decoration: none;
+    color: white;
+}
+.navbar__ul{
+    display: flex;
+}
+.navbar__ul__li{
+    list-style: none;
+    margin: auto 2vw;
+    text-decoration: none;
+}
+.navbar__ul__li > a{
+    text-decoration: none;
+    color: var(--color-primary-font);
+}
+.navbar--active{
+    border-bottom: 2px solid var(--color-primary-font);
+}
+
+/* main  */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.3rem;
+    flex-wrap: wrap;
+}
+.row-1{
+    display: flex;
+    align-items: center;
+}
+.main__img > img{
+    width: 35vw;
+    margin-left: 7.5rem;
+}
+.main__content{
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+.crookedUI{
+    font-weight: 2rem;
+}
+.main__btn{
+    background-color: var(--color-primary);
+    border: none;
+    padding: 1rem;
+    color: var(--color-primary-font);
+    border-radius: 10px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(116, 115, 115);
+    text-decoration: none;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: var(--color-primary);
+    padding: 0.5rem;
+}
+.footer__img{
+    width: 1.5rem;
+    margin: 0 1rem;
+    align-self: center;
+}
+
+
+@media screen and (max-width: 768px){
+    .row-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main__content{
+        margin: 5rem 2rem;
+        align-self: center;
+    }
+    .main__img > img{
+        width: 55vw;
+        margin-left: auto;
+    }
+}
