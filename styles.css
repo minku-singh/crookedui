@@ -57,16 +57,41 @@ body{
     align-items: center;
     height: 85vh;
     margin: 2rem;
-    text-shadow: 2px 2px 2px var(--color-primary);
 }
 .main__left{
     flex-basis: 50%;
     font-size: 4rem;
+    text-shadow: 2px 2px 2px var(--color-primary);
 }
 .main__img{
     width: 30rem;
     flex-basis: 50%;
 }
+
+/* all page main - changeable part *****************************************************/
+.docs__left{
+    margin-right: 15rem;
+}
+.page__main{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    min-height: 50rem;
+}
+.page__main > .aside{
+    border-left: 2px solid black;
+}
+.aside__ul__items{
+    list-style: none;
+    padding-bottom: 0.5rem;
+}
+.aside__ul__items > a{
+    text-decoration: none;
+    color: var(--color-text-a);
+}
+/* ******************************************************************************* */
 
 /* footer */
 .footer{
