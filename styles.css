@@ -38,7 +38,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    height: 85vh;
     margin: 2rem;
 }
 .main__left{
