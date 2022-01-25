@@ -8,32 +8,34 @@
     <title>CrookedUI</title>
 </head>
 <body>
+
+    <!-- common navbar  -->
+    <nav class="navbar"> 
+        <h1 class="navbar__brand">CrookedUI</h1>
+        <ul class="navbar__ul">
+            <li class="navbar__items"><a title="Home" class="active" href="./index.html">Home</a></li>
+            <li class="navbar__items"><a title="Docs" href="./docs.html">Docs</a></li>
+            <li class="navbar__items"><a title="Contribute" href="">Github</a></li>
+        </ul>
+    </nav>
+
+    <!-- changing main container -->
     <div class="container">
-        <div class="navbar">
-            <div class="navbar__brand"><h1> <a href="./index.html">CrookedUI</a> </h1></div>
-            <ul class="navbar__ul">
-                <li class="navbar__ul__li"> <a class="navbar--active" href="./index.html">Home</a> </li>
-                <li class="navbar__ul__li"> <a href="./docs.html">Docs</a> </li>
-                <li class="navbar__ul__li"> <a href="https://github.com/minku-singh/crookedui">Github</a> </li>
-            </ul> 
-        </div>
-
         <div class="main">
-            <div class="row-1">
-                <div class="main__content"><h2>Build your site <br> at blazing speed with <br>CrookedUI</span> </h2></div>
-                <div class="main__img"><img src="./assets/website-build.svg" alt="website-building"></div>
-            </div>
-            <a class="main__btn" href="./docs.html"> Get Started &#8594;</a>
-        </div>
-
-        <div class="footer">
-            <small>&copy;2022, Built with ♥ by Minku⛅</small>
-            <div class="footer__icons">
-                <a href="https://github.com/minku-singh"><img class="footer__img" src="./assets/github.png" alt="github"></a>
-                <a href="https://twitter.com/minku_singhh"><img class="footer__img" src="./assets/twitter.png" alt="twitter"></a>
-                <a href="https://www.linkedin.com/in/minku-singh/"><img class="footer__img" src="./assets/linkedin.png" alt="linkedin"></a>
-            </div>
+            <h2 class="main__left">Build Your site at <br> Blazing speed <br> with Us</h2>
+            <aside><img class="main__img" src="./assets/website-build.svg" alt="build website"></aside>
         </div>
     </div>
+
+    <!-- common footer  -->
+    <div class="footer">
+        <small>&copy; 2022, Built by Minku⛅</small>
+        <div class="footer__social">
+            <a href="https://github.com/minku-singh"><img class="footer__img" src="./assets/github.png" alt="github" title="Github"></a>
+            <a href="https://twitter.com/minku_singhh"><img class="footer__img" src="./assets/twitter.png" alt="twitter" title="Twitter"></a>
+            <a href="https://www.linkedin.com/in/minku-singh/"><img class="footer__img" src="./assets/linkedin.png" alt="linkedin" title="LinkedIn"></a>
+        </div>
+    </div>
+
 </body>
 </html>
