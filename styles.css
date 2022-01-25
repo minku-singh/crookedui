@@ -36,6 +36,8 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container__a{
     padding: 1rem;
@@ -55,6 +57,7 @@ body{
     align-items: center;
     height: 85vh;
     margin: 2rem;
+    text-shadow: 2px 2px 2px var(--color-primary);
 }
 .main__left{
     flex-basis: 50%;
@@ -80,12 +83,14 @@ body{
 }
 
 @media screen and (max-width: 768px){
+    .container{
+        height: 60rem;
+    }
     .main{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        height: auto;
     }
     .main__img{
         width: 17rem;
