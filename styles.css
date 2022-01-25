@@ -81,11 +81,17 @@ body{
 }
 
 @media screen and (max-width: 768px){
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .main__img{
         width: 17rem;
         margin: 2rem;
+        flex-basis: 100%;
     }
     .main__left{
         font-size: 2rem;
+        flex-basis: 100%;
     }
 }
