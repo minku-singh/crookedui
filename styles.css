@@ -91,6 +91,7 @@ body{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin: 3rem 1rem;
     }
     .main__img{
         width: 17rem;
@@ -99,8 +100,7 @@ body{
         flex-basis: 100%;
     }
     .main__left{
-        font-size: 2rem;
+        font-size: 2.5rem;
         flex-basis: 100%;
-        margin: 3rem;
     }
 }
