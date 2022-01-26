@@ -4,7 +4,7 @@
 }
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 /******************************** card component **************************************/
@@ -50,3 +50,43 @@
 }
 
 /**************************************** card component end ****************************/
+/*************************************** badge component ********************************/
+.btn{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px var(--color-box-shadow);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-toggle{
+    display: block;
+}
+.badge{
+    position: relative;
+}
+.badge__pill{
+    background-color: orange;
+    position: relative;
+    left: -12px;
+    top: -10px;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 6px;
+}
+.badge__pill__large{
+    background-color: orange;
+    position: relative;
+    left: -12px;
+    top: -10px;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+.badge__pill__btn{
+    background-color: orange;
+    position: absolute;
+    left: -13px;
+    top: -10px;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 6px;
+}
